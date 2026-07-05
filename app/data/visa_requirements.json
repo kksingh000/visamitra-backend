@@ -1,0 +1,169 @@
+{
+  "IN-US-tourist": {
+    "corridor": "IN-US",
+    "purpose": "tourist",
+    "visa_type": "B-2 Tourist Visa",
+    "processing_days": "3-5 business days (after interview)",
+    "fee_usd": 185,
+    "documents": [
+      {"name": "Valid passport (6+ months validity)", "mandatory": true},
+      {"name": "DS-160 online application form", "mandatory": true},
+      {"name": "Visa application fee receipt", "mandatory": true},
+      {"name": "Passport-size photographs (2x2 inches)", "mandatory": true},
+      {"name": "Bank statements (last 6 months)", "mandatory": true},
+      {"name": "Income tax returns (last 3 years)", "mandatory": true},
+      {"name": "Travel itinerary", "mandatory": false, "notes": "Recommended but not mandatory"},
+      {"name": "Hotel bookings", "mandatory": false},
+      {"name": "Proof of ties to India (property, employment, family)", "mandatory": true}
+    ]
+  },
+  "IN-US-student": {
+    "corridor": "IN-US",
+    "purpose": "student",
+    "visa_type": "F-1 Student Visa",
+    "processing_days": "5-7 business days (after interview)",
+    "fee_usd": 185,
+    "documents": [
+      {"name": "Valid passport", "mandatory": true},
+      {"name": "DS-160 online application form", "mandatory": true},
+      {"name": "SEVIS fee receipt (I-901)", "mandatory": true, "notes": "Pay at fmjfee.com"},
+      {"name": "I-20 form from US institution", "mandatory": true},
+      {"name": "University acceptance letter", "mandatory": true},
+      {"name": "Financial proof (tuition + living expenses)", "mandatory": true},
+      {"name": "Academic transcripts", "mandatory": true},
+      {"name": "English proficiency scores (TOEFL/IELTS)", "mandatory": false}
+    ]
+  },
+  "IN-US-work": {
+    "corridor": "IN-US",
+    "purpose": "work",
+    "visa_type": "H-1B Specialty Occupation",
+    "processing_days": "3-6 months (lottery + processing)",
+    "fee_usd": 730,
+    "documents": [
+      {"name": "Valid passport", "mandatory": true},
+      {"name": "DS-160 online application form", "mandatory": true},
+      {"name": "I-129 petition approval notice", "mandatory": true},
+      {"name": "Labor Condition Application (LCA)", "mandatory": true},
+      {"name": "Employment offer letter", "mandatory": true},
+      {"name": "Educational credentials / degree certificates", "mandatory": true},
+      {"name": "Experience letters", "mandatory": true},
+      {"name": "Pay stubs from employer (if transfer)", "mandatory": false}
+    ]
+  },
+  "IN-GB-tourist": {
+    "corridor": "IN-GB",
+    "purpose": "tourist",
+    "visa_type": "UK Standard Visitor Visa",
+    "processing_days": "15-20 business days",
+    "fee_usd": 130,
+    "documents": [
+      {"name": "Valid passport", "mandatory": true},
+      {"name": "Online UK Visa application (VAF1A)", "mandatory": true},
+      {"name": "Biometrics appointment", "mandatory": true},
+      {"name": "Bank statements (last 6 months, min ₹2L balance)", "mandatory": true},
+      {"name": "Employment letter with salary", "mandatory": true},
+      {"name": "Travel itinerary", "mandatory": true},
+      {"name": "Hotel bookings", "mandatory": true},
+      {"name": "Travel insurance", "mandatory": false}
+    ]
+  },
+  "IN-DE-tourist": {
+    "corridor": "IN-DE",
+    "purpose": "tourist",
+    "visa_type": "Schengen C Visa (Germany)",
+    "processing_days": "15 business days",
+    "fee_usd": 90,
+    "documents": [
+      {"name": "Valid passport (3+ months beyond stay)", "mandatory": true},
+      {"name": "Schengen visa application form", "mandatory": true},
+      {"name": "Recent passport-size photos (35x45mm)", "mandatory": true},
+      {"name": "Travel insurance (min €30,000 coverage)", "mandatory": true},
+      {"name": "Flight bookings (round trip)", "mandatory": true},
+      {"name": "Hotel bookings", "mandatory": true},
+      {"name": "Bank statements (last 3 months)", "mandatory": true},
+      {"name": "Employment/leave approval letter", "mandatory": true},
+      {"name": "ITR or Form 16", "mandatory": false}
+    ]
+  },
+  "IN-CA-tourist": {
+    "corridor": "IN-CA",
+    "purpose": "tourist",
+    "visa_type": "Canada Visitor Visa (TRV)",
+    "processing_days": "14-55 days",
+    "fee_usd": 100,
+    "documents": [
+      {"name": "Valid passport", "mandatory": true},
+      {"name": "IMM 5257 application form", "mandatory": true},
+      {"name": "Digital photograph", "mandatory": true},
+      {"name": "Biometrics", "mandatory": true},
+      {"name": "Bank statements (last 6 months)", "mandatory": true},
+      {"name": "Proof of employment / business", "mandatory": true},
+      {"name": "Travel itinerary", "mandatory": false},
+      {"name": "Letter of invitation (if visiting family)", "mandatory": false}
+    ]
+  },
+  "IN-AE-tourist": {
+    "corridor": "IN-AE",
+    "purpose": "tourist",
+    "visa_type": "UAE Tourist Visa (30 days)",
+    "processing_days": "3-5 business days",
+    "fee_usd": 90,
+    "documents": [
+      {"name": "Valid passport (6+ months validity)", "mandatory": true},
+      {"name": "Passport-size photograph (white background)", "mandatory": true},
+      {"name": "Confirmed return flight ticket", "mandatory": true},
+      {"name": "Hotel booking or host details", "mandatory": true},
+      {"name": "Bank statement (last 3 months)", "mandatory": false, "notes": "May be requested"},
+      {"name": "Travel insurance", "mandatory": false}
+    ]
+  },
+  "IN-SG-tourist": {
+    "corridor": "IN-SG",
+    "purpose": "tourist",
+    "visa_type": "Singapore Tourist Visa",
+    "processing_days": "3-5 business days",
+    "fee_usd": 30,
+    "documents": [
+      {"name": "Valid passport", "mandatory": true},
+      {"name": "SAVE application form (online)", "mandatory": true},
+      {"name": "Recent photograph", "mandatory": true},
+      {"name": "Return flight tickets", "mandatory": true},
+      {"name": "Hotel bookings", "mandatory": true},
+      {"name": "Bank statements (last 3 months)", "mandatory": true},
+      {"name": "Employment letter", "mandatory": true},
+      {"name": "Travel insurance", "mandatory": false}
+    ]
+  },
+  "IN-AU-tourist": {
+    "corridor": "IN-AU",
+    "purpose": "tourist",
+    "visa_type": "Australia Tourist Visa (Subclass 600)",
+    "processing_days": "20-40 days",
+    "fee_usd": 100,
+    "documents": [
+      {"name": "Valid passport", "mandatory": true},
+      {"name": "ImmiAccount online application", "mandatory": true},
+      {"name": "Digital photograph", "mandatory": true},
+      {"name": "Bank statements (last 6 months)", "mandatory": true},
+      {"name": "Employment proof and leave letter", "mandatory": true},
+      {"name": "Travel itinerary", "mandatory": false},
+      {"name": "Health insurance", "mandatory": false}
+    ]
+  },
+  "IN-TH-tourist": {
+    "corridor": "IN-TH",
+    "purpose": "tourist",
+    "visa_type": "Thailand Tourist Visa / Visa on Arrival",
+    "processing_days": "On arrival (VOA) or 5-7 days",
+    "fee_usd": 35,
+    "documents": [
+      {"name": "Valid passport (6+ months validity)", "mandatory": true},
+      {"name": "Passport-size photograph", "mandatory": true},
+      {"name": "Return flight ticket", "mandatory": true},
+      {"name": "Hotel booking", "mandatory": true},
+      {"name": "Proof of funds (min THB 10,000 per person)", "mandatory": true},
+      {"name": "Travel insurance", "mandatory": false}
+    ]
+  }
+}
