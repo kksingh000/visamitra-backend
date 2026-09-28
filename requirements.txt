@@ -1,6 +1,7 @@
 fastapi
 uvicorn[standard]
 pydantic-settings
+pydantic[email]
 python-dotenv
 motor
 python-jose[cryptography]
